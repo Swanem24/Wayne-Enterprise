@@ -1,0 +1,90 @@
+.body {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-content: center;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+header li {
+    display: inline-block;
+    padding: 5px 30px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header li:hover {
+    color: blue;
+    cursor: pointer;
+}
+
+header img {
+    height: 200px;
+    width: 500px;
+}
+
+section {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px;
+    padding: 10px;
+    font-size: 24px;
+}
+
+.mission {
+    background-image: url("1.jpg");
+}
+
+.mission h2 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.history, .branches, .team {
+    background-color: black;
+}
+
+.team-panel {
+    display: flex;
+    flex-direction: row;
+}
+
+.person-panel {
+    text-align: center;
+}
+
+.person-panel img {
+    width: 250px;
+    height: 350px;
+    margin: 0px 200px;
+}
+
+#w-tecnho {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+}
+
+footer li {
+    display: inline-block;
+    margin: 0px 100px;
+}
